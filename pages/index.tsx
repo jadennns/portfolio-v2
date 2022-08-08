@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <div className="flex flex-col justify-center items-center mt-20">
         <div className="flex items-center flex-col space-y-5">
           <Image
-            src={"/assets/PysduckSwim.gif"}
+            src={"/assets/Icon.jpg"}
             width={100}
             height={100}
             alt="Avatar"

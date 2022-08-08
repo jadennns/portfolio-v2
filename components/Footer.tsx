@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 import { SiKofi } from "react-icons/si";
@@ -8,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="footer p-10 bg-neutral text-neutral-content">
       <div>
-        <Image
+        <img
           src={"/assets/PysduckSwim.gif"}
           width={70}
           height={70}
